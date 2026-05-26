@@ -137,8 +137,6 @@ ghana-petroleum-data-pipeline/
 ---
 
 ## Future Improvements
-
-- Add DuckDB warehouse layer
 - Add SQL analytics
 - Automate PDF extraction
 - Add forecasting models
