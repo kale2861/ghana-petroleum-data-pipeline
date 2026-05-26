@@ -34,9 +34,23 @@ This project aims to explore:
 ### Ghana Petroleum Data
 - Public Interest and Accountability Committee (PIAC) Annual Reports
 
-### Brent Crude Oil Prices
+### Data Transformation Pipeline
 - U.S. Energy Information Administration (EIA)
 
+The project includes a Python-based transformation pipeline that converts manually collected petroleum tracking data into an analytics-ready dataset.
+
+Key transformation steps include:
+- standardizing column names
+- cleaning numeric values
+- generating source metadata
+- calculating revenue-per-barrel metrics
+- exporting processed datasets for analytics workflows
+
+The transformed dataset powers:
+- exploratory data analysis
+- SQL analytics
+- Streamlit dashboards
+- future forecasting workflows
 ---
 
 ## Technologies Used
@@ -49,7 +63,12 @@ This project aims to explore:
 - VS Code
 
 ---
+## DuckDB + SQL Analytics Layer
 
+This project includes a lightweight analytics database layer using DuckDB.
+
+After cleaning and transforming the petroleum dataset, the processed CSV is loaded into a local DuckDB database:ghana_petroleum.duckdb
+---
 ## Project Structure
 
 ```text
@@ -107,11 +126,11 @@ ghana-petroleum-data-pipeline/
 
 ### Revenue Analysis
 
-Add revenue screenshot here.
+![alt text](image-1.png)
 
 ### Production Analysis
 
-Add production screenshot here.
+![alt text](image-2.png)
 
 ---
 
