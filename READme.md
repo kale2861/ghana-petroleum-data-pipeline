@@ -61,6 +61,8 @@ The transformed dataset powers:
 - Streamlit
 - Jupyter Notebook
 - VS Code
+- DuckDB
+- SQL
 
 ---
 ## DuckDB + SQL Analytics Layer
@@ -120,17 +122,17 @@ ghana-petroleum-data-pipeline/
 
 ## Dashboard Preview
 
-### Executive Dashboard
 
-![alt text](image.png)
+
+![Dashboard Home](assets/dashboard_home.png)
 
 ### Revenue Analysis
 
-![alt text](image-1.png)
+![Revenue Analysis](assets/revenue_analysis.png)
 
 ### Production Analysis
 
-![alt text](image-2.png)
+![Production Analysis](assets/production_analysis.png)
 
 ---
 
