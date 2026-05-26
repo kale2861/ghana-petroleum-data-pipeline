@@ -137,7 +137,6 @@ ghana-petroleum-data-pipeline/
 ---
 
 ## Future Improvements
-- Add SQL analytics
 - Automate PDF extraction
 - Add forecasting models
 - Add field-level production analysis
