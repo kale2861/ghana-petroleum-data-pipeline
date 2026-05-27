@@ -98,8 +98,10 @@ st.markdown(
 # =========================================================
 # LOAD DATA
 # =========================================================
+current_dir = Path(__file__).parent
 
-DATA_PATH = Path("data/processed/ghana_petroleum_analytics.csv")
+DATA_PATH = current_dir.parent / "data" / "processed" / "ghana_petroleum_analytics.csv"
+
 
 @st.cache_data
 def load_data():
